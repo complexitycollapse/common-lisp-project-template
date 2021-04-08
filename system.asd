@@ -1,6 +1,4 @@
-;;;; %ApplicationName%.asd(#| TMPL_IF copyright |#)
-;;
-;;;; (#| TMPL_VAR copyright |#)(#| /TMPL_IF |#)
+;;;; %ApplicationName%.asd
 
 (asdf:defsystem #:%ApplicationName%
   :description "Describe %ApplicationName% here"
@@ -9,5 +7,5 @@
   :version "0.0.1"
   :serial t
   :depends-on ()
-  :components ((:file "package")
+  :components ((:file "packages")
                (:file "%ApplicationName%")))
