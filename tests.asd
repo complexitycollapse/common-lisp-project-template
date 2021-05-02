@@ -9,4 +9,4 @@
   :depends-on (#:%ApplicationName%
 	       #:0am)
   :components ((:file "packages")
-               (:file "%ApplicationName%-tests")))
+               (:file "tests-%ApplicationName%")))

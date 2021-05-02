@@ -10,6 +10,6 @@ sed -i "s/%ApplicationName%/$1/g" tests.asd
 rm README.md
 mv README-template.md README.md
 mv application.lisp $1.lisp
-mv tests.lisp $1-tests.lisp
+mv tests.lisp tests-$1.lisp
 mv system.asd $1.asd
-mv tests.asd $1-tests.asd
+mv tests.asd tests-$1.asd
